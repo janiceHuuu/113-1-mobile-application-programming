@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mult"
+        android:layout_width="241dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="173dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="370dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mult"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/iple"
+        android:layout_width="95dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="@string/mult"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mult"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="407dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="140dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="@string/plus"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="@string/minus"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/quaketest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">F64126147_7276_2</string>
+    <string name="in">搖滾區</string>
+    <string name="ou">看臺區</string>
+    <string name="in_2">$2000</string>
+    <string name="ou_2">$1000</string>
+    <string name="b1">數量</string>
+    <string name="b2">+</string>
+    <string name="b3">-</string>
+    <string name="zero">0</string>
+    <string name="cap">螢光棒：</string>
+    <string name="cb">後援會VIP</string>
+    <string name="type">付款方式：</string>
+    <string-array name="type_2">
+        <item>現場付款</item>
+        <item>線上刷卡</item>
+    </string-array>
+
+</resources>

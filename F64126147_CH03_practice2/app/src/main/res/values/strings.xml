@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">F64126147_CH03_practice2</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="back">退格</string>
+    <string name="clear">清除</string>
+    <string name="calculate">計算</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">F64126147_CH07_practice6</string>
+    <string name="buy">購票</string>
+    <string name="regular">原價票</string>
+    <string name="student">學生票</string>
+    <string name="group">團體票</string>
+    <string name="challenge">身障票</string>
+    <string name="invite">優待票</string>
+    <string name="cate">票別</string>
+    <string name="confirm">確定</string>
+</resources>

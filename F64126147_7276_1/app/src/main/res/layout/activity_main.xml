@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:text="@string/tv_num" />
+
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="項目"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/type"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:text="@string/tp" />
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_ja"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/pa" />
+
+                <RadioButton
+                    android:id="@+id/rb_us"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/di" />
+
+                <RadioButton
+                    android:id="@+id/rb_ta"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="臺灣" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="生日"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="日期" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="身高：" />
+
+            <EditText
+                android:id="@+id/ed_he"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="體重" />
+
+            <EditText
+                android:id="@+id/ed_we"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="食物：" />
+
+            <CheckBox
+                android:id="@+id/cb_su"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="壽司" />
+
+            <CheckBox
+                android:id="@+id/cb_ham"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="漢堡" />
+
+            <CheckBox
+                android:id="@+id/cb_bo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="珍奶" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="產生"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textAlignment="viewEnd"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_bs"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/baseball" />
+
+                <ImageView
+                    android:id="@+id/iv_bk"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/basketball" />
+
+                <ImageView
+                    android:id="@+id/iv_fe"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/feather" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_ja"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/japen" />
+
+                <ImageView
+                    android:id="@+id/iv_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/usa" />
+
+                <ImageView
+                    android:id="@+id/iv_ta"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ta" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_bmi"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_su"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sushi" />
+
+            <ImageView
+                android:id="@+id/iv_ham"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/hamburger" />
+
+            <ImageView
+                android:id="@+id/iv_bo"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boba" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

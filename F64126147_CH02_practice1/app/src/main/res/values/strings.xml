@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">F64126147_CH02_practice1</string>
+    <string name="hw">Hello World!</string>
+    <string name="name">Name</string>
+    <string name="confirm">確定</string>
+    <string name="big">放大</string>
+    <string name="small">縮小</string>
+    <string name="red">紅色</string>
+    <string name="blue">藍色</string>
+    <string name="bold">粗體</string>
+    <string name="italic">斜體</string>
+    <string name="clear">清除</string>
+    <string name="zero">還原</string>
+</resources>

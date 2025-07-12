@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">F64126147_7276_1</string>
+    <string name="tv_num">姓名：</string>
+    <string name="tv_day">國籍：</string>
+    <string name="choose">選取</string>
+    <string name="tp">國籍：</string>
+    <string name="pa">日本</string>
+    <string name="di">美國</string>
+    <string name="lo">地點載具：</string>
+    <string name="confirm">確認預定</string>
+    <string name="data">預定資訊：</string>
+    <string name="tv_bo">加碼券勾選與中獎查詢：</string>
+    <string name="c1">熊好券</string>
+    <string name="c2">國旅券</string>
+    <string name="c3">農遊券</string>
+    <string name="c4">動茲券</string>
+    <string name="c5">好食券</string>
+    <string name="t1">未勾選</string>
+    <string-array name="type">
+        <item>棒球</item>
+        <item>籃球</item>
+        <item>羽球</item>
+    </string-array>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_add">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 店名輸入 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/name"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <!-- 支付方式 -->
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/payment"
+                android:textSize="24sp"
+                android:paddingTop="16dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linepay"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/street"
+                android:textSize="20sp" />
+
+            <!-- 外送平台 -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/takingout"
+                android:textSize="24sp"
+                android:paddingTop="16dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/foodpanda"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ubereats"
+                android:textSize="20sp" />
+
+            <!-- 類型選擇 -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="類型："
+                android:textSize="24sp"
+                android:paddingTop="16dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中式"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="義式"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="日式"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="泰式"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="韓式"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="美式"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="飲料" />
+
+            <!-- Google 地圖標記位置 -->
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp" />
+
+            <!-- 新增按鈕 -->
+            <Button
+                android:id="@+id/btnAddRestaurant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新增店家"
+                android:layout_marginTop="32dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

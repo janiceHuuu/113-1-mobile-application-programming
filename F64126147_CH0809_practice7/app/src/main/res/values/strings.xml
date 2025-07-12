@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">F64126147_CH08-09_practice7</string>
+    <string-array name="restaurant">
+        <item>小妞炒飯</item>
+        <item>牛伯麵店</item>
+        <item>余家蔬菜麵</item>
+        <item>新增店家</item>
+        <item>隨機店家</item>
+    </string-array>
+    <string name="name">店家：</string>
+    <string name="confirm">確定</string>
+    <string name="cancel">取消</string>
+</resources>

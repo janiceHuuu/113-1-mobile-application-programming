@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">group4_2</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="choose">選擇店家</string>
+    <string name="reserve">預約清單</string>
+    <string name="add">新增店家</string>
+    <string name="name">店家名稱：</string>
+    <string name="payment">支付方式：</string>
+    <string name="takingout">外送平台：</string>
+    <string name="linepay">LinePay</string>
+    <string name="street">街口支付</string>
+    <string name="foodpanda">FoodPanda</string>
+    <string name="ubereats">UberEats</string>
+    <string name="back">回前頁</string>
+    <string name="map">Google map</string>
+    <string name="pay">支付方式</string>
+    <string name="food">外送平台</string>
+    <string name="res">預約店家</string>
+    <string name="go">前往店家</string>
+    <string name="exc">匯出報表</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">F64126147_CH06_practice5</string>
+    <string name="tv_start">起站</string>
+    <string name="tv_final">迄站</string>
+    <string name="orientation">方向</string>
+    <string name="north">北上</string>
+    <string name="south">南下</string>
+    <string-array name="station">
+        <item>台北站</item>
+        <item>桃園站</item>
+        <item>新竹站</item>
+        <item>台中站</item>
+        <item>嘉義站</item>
+        <item>台南站</item>
+        <item>高雄站</item>
+    </string-array>
+    <string name="cat">票別</string>
+    <string name="regular">全票</string>
+    <string name="love">愛心票</string>
+    <string name="child">兒童票</string>
+    <string name="old">敬老票</string>
+    <string name="free">自由座</string>
+    <string name="group">團體票</string>
+</resources>

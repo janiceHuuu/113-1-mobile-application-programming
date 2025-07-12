@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_thai"
+        android:title="泰式"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_japanese"
+        android:title="日式"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_italian"
+        android:title="義式"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_chinese"
+        android:title="中式"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_korean"
+        android:title="韓式"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_american"
+        android:title="美式"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_favorite"
+        android:title="我的最愛"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_reset"
+        android:title="顯示所有地標"
+        android:checkable="true" />
+
+</menu>
