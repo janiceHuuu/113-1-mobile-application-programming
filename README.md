@@ -34,7 +34,7 @@
   - [特殊設計](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/F64126147_CH12_practice8/F64126147_%E8%83%A1%E7%91%80%E7%9C%9F_%E7%B7%B4%E7%BF%92%E5%85%AB%E7%89%B9%E6%AE%8A%E8%A8%AD%E8%A8%88.pdf)
     - 當玩家獲得四分，便可選擇重複遊玩同一關卡或到另一關卡遊玩
     - 增加第二關，其中新增炸彈，當小精靈吃到炸彈即扣分，提高遊戲難度
-    - 
+    
 - [作業九](https://github.com/janiceHuuu/113-1-mobile-application-programming/tree/main/F64126147_CH14_practice9)：設計一個查訊地點系統，除在App內顯示Google Map外，也及時向使用者更新查詢地與自己之間的距離、前進方向等
   - [特殊設計](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/F64126147_CH14_practice9/F64126147_%E8%83%A1%E7%91%80%E7%9C%9F_%E7%B7%B4%E7%BF%92%E4%B9%9D%E7%89%B9%E6%AE%8A%E8%A8%AD%E8%A8%88.pdf)
     - 新增搜尋匡的防呆功能，以因應使用者輸入錯誤、未查到地點的情況
