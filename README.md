@@ -26,7 +26,7 @@
 - [作業七](https://github.com/janiceHuuu/113-1-mobile-application-programming/tree/main/F64126147_CH0809_practice7)：設計一個可開啟對應店家Google搜尋頁面的最愛店家清單
   - [特殊設計](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/F64126147_CH0809_practice7/F64126147_%E8%83%A1%E7%91%80%E7%9C%9F_%E7%B7%B4%E7%BF%92%E4%B8%83%E7%89%B9%E6%AE%8A%E8%A8%AD%E8%A8%88.pdf)
     - 加入一搜尋匡SearchView以供使用者搜尋店家，以避免清單長時，難以找到特定店家的情況
-    - 因應使用者不知道該吃什麼的情況，將ListView的最後一個項目設為隨機店家，當使用者按下該項目時，隨機選擇一清單內的店家，開啟該店家的Google搜尋網頁。
+    - 因應使用者不知道該吃什麼的情況，將ListView的最後一個項目設為隨機店家，當使用者按下該項目時，隨機選擇一清單內的店家，開啟該店家的Google搜尋網頁
     - 運用Snackbar提示使用者是否有成功新增店家於清單中
     - 運用Toast提示使用者在新增店家時，店家名稱是否為空，以及在隨機店家時，清單是否為空
       
