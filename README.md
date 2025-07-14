@@ -48,7 +48,7 @@
     使用者可透過點擊增加、長按減少搖滾區購票數，並藉由點擊增減按鈕選擇看臺區票數，系統需在符合購票規則（如：每人限購6張票、螢光棒購買數量不得大於門票數、同區購票享第二張8折優惠、不分區購票3張送1支螢光棒、不同付款方式享不同優惠或需付手續費等）的情況下，正確計算總金額。最後，使用者確認付款方式，App即出現AlertDialog確認購票訊息，供使用者確認或取消訂單
   
 - [期末專題](https://github.com/janiceHuuu/113-1-mobile-application-programming/tree/main/group4_2)：三人一組合作完成，本組主題為「美食店家資訊整合與篩選平台」
-  - [專題成果報告書](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/group4_2/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)、[簡報])()
+  - [專題成果報告書](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/group4_2/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
   - [成果展示影片](https://youtu.be/jHW_42sFfns)
   - [升級版之前往店家展示影片](https://youtube.com/shorts/wr_U_NzrJ-Q)
   - 可供使用者新增美食店家於應用程式中，並透過搜尋關鍵字或篩選標籤（如：泰式、日式）的方式選擇店家。接著，可預約去該店家的時間，或點擊前往店家的按鈕，產生引導使用者前進方向的箭頭、地圖、距離等空間資訊
