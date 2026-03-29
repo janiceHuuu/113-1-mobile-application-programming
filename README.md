@@ -4,8 +4,9 @@
 - 測量系選修課，3學分，學習使用java建立Android行動裝置應用程式，共有九次個人作業與一次分組期末專題
   
 - [期末專題](https://github.com/janiceHuuu/113-1-mobile-application-programming/tree/main/group4_2)：三人一組合作完成，本組主題為「美食店家資訊整合與篩選平台」
-程式架構圖<img width="261" height="142" alt="image" src="https://github.com/user-attachments/assets/b0a9ad73-16a2-441f-aa59-f2dba1190d90" />
-
+  - 程式架構圖
+  - ![Uploading image.png…]()
+ 
   - [專題成果報告書](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/group4_2/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
   - [成果展示影片](https://youtu.be/jHW_42sFfns)
   - [升級版之前往店家功能展示影片](https://youtube.com/shorts/wr_U_NzrJ-Q)
