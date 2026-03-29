@@ -8,6 +8,7 @@
   <b>系統架構圖</b><br><br>
   <img src="https://github.com/user-attachments/assets/96e43004-9e57-4530-a48a-178859887588" width="700">
 </p>
+
   - [專題成果報告書](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/group4_2/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
   - [成果展示影片](https://youtu.be/jHW_42sFfns)
   - [升級版之前往店家功能展示影片](https://youtube.com/shorts/wr_U_NzrJ-Q)
