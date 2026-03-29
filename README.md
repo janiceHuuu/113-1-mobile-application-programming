@@ -6,7 +6,7 @@
 - [期末專題](https://github.com/janiceHuuu/113-1-mobile-application-programming/tree/main/group4_2)：三人一組合作完成，本組主題為「美食店家資訊整合與篩選平台」
 <p align="center">
   <b>系統架構圖</b><br><br>
-  <img src="[image.png](https://github.com/user-attachments/assets/a6931ba6-88ee-4d81-aeda-044c07d2a400)" width="700">
+  <img src="https://github.com/user-attachments/assets/96e43004-9e57-4530-a48a-178859887588" width="700">
 </p>
   - [專題成果報告書](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/group4_2/%E5%B0%88%E9%A1%8C%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf)
   - [成果展示影片](https://youtu.be/jHW_42sFfns)
