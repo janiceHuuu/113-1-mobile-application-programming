@@ -19,6 +19,7 @@
   - [成果展示影片](https://youtu.be/jHW_42sFfns)
   - [升級版之前往店家功能展示影片](https://youtube.com/shorts/wr_U_NzrJ-Q)
 <br><br>
+<br><br>
 - [作業一](https://github.com/janiceHuuu/113-1-mobile-application-programming/tree/main/F64126147_CH02_practice1)：設計可以對TextView放大、縮小、修改文字顏色、粗體、斜體、清除、還原等功能的App
   - [特殊設計](https://github.com/janiceHuuu/113-1-mobile-application-programming/blob/main/F64126147_CH02_practice1/F64126147_%E8%83%A1%E7%91%80%E7%9C%9F_%E7%B7%B4%E7%BF%92%E4%B8%80%E7%89%B9%E6%AE%8A%E8%A8%AD%E8%A8%88.pdf)
     - 偵測使用者是否有輸入文字的防呆功能
